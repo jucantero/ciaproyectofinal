@@ -1,0 +1,6 @@
+@mixin imagenes($padding-rigth, $padding-left, $margin-top, $margin-botton) {
+  padding-right: $padding-rigth;
+  padding-left: $padding-left;
+  margin-top: $margin-top;
+  margin-bottom: $margin-botton;
+}

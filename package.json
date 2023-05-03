@@ -1,0 +1,12 @@
+{
+  "name": "ciaproyectofinal",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "compile": "sass --watch scss:css"
+  },
+  "keywords": [],
+  "author": "Julieta Mendez",
+  "license": "ISC",
+  "description": ""
+}

@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url(../img/fondo.jpg);
+  font-family: $fuentenav;
+}
+
+header {
+  .navbar-brand {
+    color: $color;
+  }
+  .nav-link {
+    color: $color;
+  }
+  .color {
+    background-color: $colorbt;
+  }
+}
+section {
+  .conteiner {
+    @include imagenes(10px, 10px, 100px, 100px);
+  }
+}
+
+footer {
+  background-color: $colorfo;
+  .terminos {
+    color: $colorf;
+    text-decoration: none;
+  }
+}
